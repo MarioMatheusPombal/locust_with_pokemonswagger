@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "./src/**/*.ts"
+    ],
+    "ext": "ts",
+    "ignore": ["*.test.ts"],
+    "delay": "3s",
+    "exec": "ts-node --transpile-only ./src/app.ts"
+}
